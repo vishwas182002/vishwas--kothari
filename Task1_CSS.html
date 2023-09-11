@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK1_CSS</title>
+    <style>
+        th,
+        td {
+            border: 1px solid black;
+            background-color: rgb(148, 243, 243);
+            border-radius: 50px;
+        }
+
+        table {
+            background-color: rgb(148, 243, 243);
+            width: 600px;
+            table-layout: fixed;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        .abc {
+            background-color: white;
+            border: 5px solid green;
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+        }
+
+        .cde {
+            background-color: white;
+            border: 5px solid green;
+            width: 100px;
+            height: 50px;
+            border-radius: 20px;
+        }
+
+        .bcd {
+            background-color: white;
+            border: 5px solid green;
+            width: 100px;
+            height: 50px;
+            border-radius: 15px;
+        }
+
+        .def {
+            background-color: white;
+            border: 5px solid green;
+            width: 100px;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        .feg {
+            background-color: white;
+            border: 5px solid green;
+            width: 100px;
+            height: 50px;
+            border-radius: 5px 30%;
+        }
+
+        .oval {
+            background-color: white;
+            border: 5px solid green;
+            width: 100px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        #container {
+            width: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        #container1 {
+            width: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        #container2 {
+            width: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jil</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+    <br>
+    <div id="container">
+        <div class="abc"></div>
+        <div class="bcd"></div>
+        <div class="cde"></div>
+    </div>
+
+    <br>
+    <div id="container1">
+        <div class="bcd"></div>
+        <div class="def"></div>
+        <div class="cde"></div>
+    </div>
+    <br>
+    <div id="container2">
+        <div class="oval"></div>
+        <div class="def"></div>
+        <div class="feg"></div>
+    </div>
+</body>
+
+</html>
